@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner input=new Scanner(System.in);
+      float num=input.nextFloat();
+      int num2=input.nextInt();
+      int num3=input.nextInt();
+      int num4=input.nextInt();
+      
+      System.out.println((int)Math.floor(num));
+      System.out.println((int)Math.ceil(num));
+      System.out.println((int)Math.sqrt(num2));
+      System.out.println((int)Math.pow(num3,num4));
+      
+      
+    
+    }
+}
