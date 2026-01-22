@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        int copies = input.nextInt();
+        int cost = input.nextInt();
+        int expenditure = input.nextInt();
+
+        double profit = (copies * (cost - expenditure)) - 100;
+
+        System.out.println("Number of copies sold:" + copies);
+        System.out.println("Cost of each copy:" + cost);
+        System.out.println("Cost spent by agency on each newspaper:" + expenditure);
+        System.out.printf("The profit obtained is Rs.%.2f",profit);
+    }
+}
