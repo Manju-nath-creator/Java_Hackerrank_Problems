@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner input=new Scanner(System.in);
+      int n=input.nextInt();
+      if(n<10){
+        System.out.println("STDOUT");
+      }else{
+        String s=Integer.toString(n);
+        char d1=s.charAt(0);
+        char d2=s.charAt(1);
+        String swapped=""+d2+d1;
+        System.out.println(Integer.parseInt(swapped));
+        
+      }
+    }
+}
